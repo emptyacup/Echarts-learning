@@ -232,10 +232,9 @@
             bottom: '3%',
             containLabel: true,
             // 显示边框
-            show: true,
+            // show: false, 
             borderColor: '#012f4a'
         },
-
         xAxis: {
             type: 'category',
             data: ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'],
@@ -258,6 +257,7 @@
             axisLabel: {
                 color: '#4c9bfd'
             },
+            // 划分线
             splitLine: {
                 lineStyle: {
                     color: '#012f4a'
@@ -308,7 +308,7 @@
                 type: 'cross',
                 label: {
                     backgroundColor: '#6a7985'
-                }
+                },
             }
         },
         legend: {
@@ -408,7 +408,7 @@
                 // 设置拐点样式 （柱、点）
                 itemStyle: {
                     color: "#0184d5",
-                    borderColor: "rgba(221, 220, 107, .1)",
+                    borderColor: "rgba(221, 220, 107, 0.1)",
                     borderWidth: 12
                 },
                 emphasis: {
